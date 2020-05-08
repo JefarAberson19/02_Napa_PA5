@@ -58,12 +58,12 @@ public class playerCon : MonoBehaviour
         {
             if (level == 1)
             {
-                SceneManager.LoadScene("Level 2");
+                SceneManager.LoadScene(3);
             }
 
             else if (level == 2)
             {
-                SceneManager.LoadScene("Win");
+                SceneManager.LoadScene(1);
             }
         }
     }
